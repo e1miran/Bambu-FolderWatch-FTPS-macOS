@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+  <key>Label</key>
+  <string>com.ftps.uploader</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/[USERNAME]/bin/ftps_wrapper</string>
+  </array>
+
+  <key>WatchPaths</key>
+  <array>
+    <string>[DIRECTORY_TO_WATCH]</string>
+  </array>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/ftps_upload.out</string>
+
+  <key>StandardErrorPath</key>
+  <string>/tmp/ftps_upload.err</string>
+
+</dict>
+</plist>

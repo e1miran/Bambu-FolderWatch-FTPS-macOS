@@ -7,9 +7,9 @@ __Use at your own risk: This service was vibe-coded using AI. The owner of this 
 
 This service monitors a user-defined folder directory on your macOS system watching for newly saved files. When using "Export plate sliced file" or "Export all sliced file" in OrcaSlicer, save the .3mf files to that monitored folder.
 
-Once the service detects a new file:
+Once the service detects a new file, it will run a shell script that:
 
-- It will display a pop-up message allowing you to select which Bambu printers on your network (as configured in the shell script) to upload the file to via FTPS
+- Will display a pop-up message allowing you to select which Bambu printers on your network (as configured in the shell script) to upload the file to via FTPS
 - Place the file in an archive folder
 - Make multiple attempts to upload
 - Provide a notification on failure or on successful upload

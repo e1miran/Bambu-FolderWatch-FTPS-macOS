@@ -3,9 +3,20 @@ Scripts to upload files to Bambu Lab printers from OrcaSlicer or similar. Used i
 
 __Use at your own risk: This service was vibe-coded using AI. The owner of this repo may not be able to provide support if it does not work in your case.__
 
+# What This Service Does
+
+This service monitors a particular folder directory on your macOS system watching for newly saved files. When using "Export plate sliced file" or "Export all sliced file" in OrcaSlicer, save the .3mf files to that monitored folder.
+
+Once the service detects a new file:
+
+- It will display a pop-up message allowing you to select which Bambu printers on your network (as configured in the shell script) to upload the file to via FTPS
+- Place the file in an archive folder
+- Make multiple attempts to upload
+- Provide a notification on failure or on successful upload
+
 # Installation Guide
 
-This guide explains how to install and configure the macOS FTPS folder watcher service.
+The guide explains how to install and configure the macOS FTPS folder watcher service.
 
 The project includes:
 

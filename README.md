@@ -5,7 +5,7 @@ __Use at your own risk: This service was vibe-coded using AI. The owner of this 
 
 # What This Service Does
 
-This service monitors a particular folder directory on your macOS system watching for newly saved files. When using "Export plate sliced file" or "Export all sliced file" in OrcaSlicer, save the .3mf files to that monitored folder.
+This service monitors a user-defined folder directory on your macOS system watching for newly saved files. When using "Export plate sliced file" or "Export all sliced file" in OrcaSlicer, save the .3mf files to that monitored folder.
 
 Once the service detects a new file:
 

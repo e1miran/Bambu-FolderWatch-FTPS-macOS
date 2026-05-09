@@ -13,6 +13,7 @@ Once the service detects a new file, it will run a shell script that:
 - Place the file in an archive folder
 - Make multiple attempts to upload
 - Provide a notification on failure or on successful upload
+- Maintain a transactiona and error log
 
 # Installation Guide
 
